@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gemspec
 
 gem "chef-test-kitchen-enterprise", git: "https://github.com/chef/chef-test-kitchen-enterprise", branch: "rebranding_change"
+# gem "inspec", git: "https://github.com/inspec/inspec", branch: "nm/remove-licensing"
 
 group :guard do
   gem "guard-rspec",    require: nil
@@ -12,7 +13,7 @@ end
 group :test do
   gem "minitest", "~> 5.5"
   gem "rake", "~> 13.0"
-  gem "chefstyle", "0.12.0"
+  gem "chefstyle"
   gem "concurrent-ruby", "~> 1.0"
   gem "rspec"
   gem "simplecov", "~> 0.12"

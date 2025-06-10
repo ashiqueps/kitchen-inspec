@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").grep(/LICENSE|Gemfile|kitchen-inspec.gemspec|^lib/)
   spec.require_paths = ["lib"]
   spec.required_ruby_version = ">= 2.3.0"
-  spec.add_dependency "inspec", "~> 6.0" # for RC1 release 6.0 and the above has the licensing changes.
+  # spec.add_dependency "inspec", "~> 6.0" # for RC1 release 6.0 and the above has the licensing changes.
   spec.add_dependency "hashie", ">= 3.4", "<= 5.0"
 end
